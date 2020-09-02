@@ -1,0 +1,36 @@
+body{
+    background-image: url(../image/intersection.png);
+    font-family: 'Noto Serif', serif;
+}
+
+.footer{
+    height: 40px;
+    line-height: 40px;
+    border-top: 3px solid #17a2b8;
+}
+
+.navbar-brand{
+    font-size: 26px;
+}
+/*
+.jumbotron{
+    overflow: hidden;
+} */
+
+/* media query when screen size under sx, set the width take full screen */
+
+@media only screen and (max-width: 576px){
+    .col-12{
+    padding-left: 0;
+    padding-right: 0;
+    }
+    .jum-col{
+        flex: 100%;
+        max-width: 100%;
+        margin: 0 1rem;
+    }
+    p{
+        font-size: 18px;
+    }
+}
+
