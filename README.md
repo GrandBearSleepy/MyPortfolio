@@ -5,12 +5,12 @@
     contact.html
     portfolio.html
 
-## All three pages are using bootstrap component which are:
+## All three pages are using bootstrap components which are:
     Navbar
     fixed-bottom
     jumbotron
     
-## Customed style sheet "style.css" is used for setting some details.
+## Customized style sheet "style.css" is used for setting some details.
 
 
 ## All pages don't include actually information, will be updated some day later.
