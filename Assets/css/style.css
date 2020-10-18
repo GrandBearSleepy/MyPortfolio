@@ -187,6 +187,24 @@ section{
     transition: all 0.3s ease;
 }
 
+.about .about-content a{
+    color: #fff;
+    background: crimson;
+    font-size: 24px;
+    padding: 12px 34px;
+    margin-top: 25px;
+    display: inline-block;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    border: 2px solid crimson;
+    cursor: pointer;
+}
+
+.about .about-content a:hover{
+    color: crimson;
+    background: none;
+}
+
 
 
 
@@ -366,6 +384,9 @@ section{
     font-weight: 500;
     transition: all 0.3s ease;
 }
+.portfolio .portfolio-content .repository{
+    margin-top: 25px;
+}
 
 
 footer{
@@ -375,13 +396,6 @@ footer{
     padding: 15px 25px;
     text-align: center;
 }
-
-
-
-
-
-
-
 
 
 
@@ -437,6 +451,9 @@ footer{
     width: 48%;
     margin-bottom: 20px;
 }
+.about .about-content .right{
+        text-align: center;
+    }
 }
 
 
@@ -466,6 +483,11 @@ footer{
     .home .home-content .text-3 span{
         display: block;
     }
+    
+    .about .about-content .right a{
+        font-size: 20px;
+    }
+
     .max-width{
         padding: 0 30px;
     }
