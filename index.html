@@ -4,74 +4,172 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leon's Page Demo</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="./CSS/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9ed83bc954.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <title>Portfolio</title>
 </head>
 
 <body>
-    <!-- Nav bar using bootstrap-->
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <nav class="navbar navbar-expand-md navbar-light bg-light overflow-hidden">
-                    <a class="navbar-brand bg-info text-light font-weight-bolder" href="#">Leon's Page</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link" href="./contact.html">Contact</a>
-                            <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                            <a class="nav-link active" href="./index.html">About<span
-                                    class="sr-only">(current)</span></a>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+            <ul class="menu">
+                <li>
+                    <a href="#" class="mune-btn">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="mune-btn">About</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="mune-btn">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contact" class="mune-btn">Contact</a>
+                </li>
+            </ul>
+            <div class="mune-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Hengquan Li</div>
+                <div class="text-3">And I'm a <span>Full stack developer</span></div>
+                <a id="contact-btn" href="#contact">Contact me</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About Me</h2>
+            <div class="about-content">
+                <div class="left column">
+                    <img src="./Assets/images/about.jpg" alt="">
+                </div>
+                <div class="right column">
+                    <div class="text">I am Hengquan Li</div>
+                    <p>Lorem ipsum dolor sit amet elit. At suscipit. Et
+                        corporis tenetur, perspiciatis nihil, reprehenderit itaque repellat atque impedit dolorem
+                        ducimus voluptatibus a sequi ex, quidem vero quas veniam. Voluptatum, error ea. Ipsa iure
+                        architecto excepturi? Nihil quisquam quod a labore asperiores cupiditate, neque ut repellat
+                        rerum totam praesentium, exercitationem voluptatum accusantium facere eos nesciunt cumque quasi
+                        fuga quibusdam vero molestias ea. Illum asperiores sed dignissimos alias natus repudiandae,
+                        reiciendis nam illo voluptas voluptatum minima omnis adipisci aspernatur commodi ipsa labore
+                        fugit nisi, unde animi iure autem culpa ducimus. Blanditiis necessitatibus minima veniam itaque
+                        voluptates magnam, eos voluptatibus quod provident quasi. Adipisci repudiandae tempora nesciunt
+                        suscipit fugiat, officiis sequi, expedita eveniet accusamus quo nulla, quasi modi possimus
+                        voluptate hic at accusantium sapiente numquam! Blanditiis debitis eos cumque enim doloribus nam
+                        dolores fuga laborum.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="max-width">
+            <h2 class="title">Portfolio</h2>
+            <div class="portfolio-content">
+                <div class="card">
+                    <div class="box">
+                        <a href="https://grandbearsleepy.github.io/WorkDayScheduler/" target="blank">
+                            <img src="./Assets/images/scheduler.png" alt="work day scheduler">
+                            <div class="name"> Day scheduler</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <a href="https://grandbearsleepy.github.io/WeatherDashboard/" target="blank">
+                            <img src="./Assets/images/weather.png" alt="weather dashboard">
+                            <div class="name">Weather forecast</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <a href="https://grandbearsleepy.github.io/Public-Holiday-Checker/">
+                            <img src="./Assets/images/holiday.png" alt="holiday checker">
+                            <div class="name">Holiday checker</div>
+                        </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-contant">
+                <div class="left column">
+                    <div class="text">Get in touch</div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium accusamus voluptatibus
+                        animi culpa vel
+                        doloremque ea quidem quos vero facilis.
+                    </p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fa fa-user"></i>
+                            <div class="detail">
+                                <div class="head">Name</div>
+                                <div class="value">Hengquan Li</div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <i class="fa fa-mobile"></i>
+                            <div class="detail">
+                                <div class="head">Mobile</div>
+                                <div class="value">61-123456789</div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <i class="fa fa-envelope"></i>
+                            <div class="detail">
+                                <div class="head">Email</div>
+                                <div class="value">Hengquan.Li@outlook.com</div>
+                            </div>
                         </div>
                     </div>
-                </nav>
-            </div>
-        </div>
-    </div>
-    <!-- Content container -->
-    <div class="container">
-        <div class="row">
-            <!-- A jumbotron use 9 columns -->
-            <div class="col-lg-9 jum-col mt-5 ml-3">
-                <div class="jumbotron bg-white overflow-hidden">
-                    <h1 class="display-4 text-info font-weight-bold">About me</h1>
-                    <hr class="my-4">
-                    <!-- A image float-left -->
-                    <img src="./image/images.jpg" class="img-fluid float-left mr-3" alt="About me image">
-                    <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, magni et
-                        culpa sit accusamus
-                        vitae consequuntur ad? Officiis doloribus obcaecati cum beatae illum hic asperiores molestias
-                        eveniet dolor laborum illo corrupti, accusamus delectus laudantium voluptas minus! Praesentium
-                        doloremque temporibus odio. Distinctio minus doloribus, sequi itaque voluptates, aperiam quasi
-                        architecto vero iure facere fuga dolor ullam perferendis inventore repudiandae. Repellat ratione
-                        earum totam accusantium similique, perspiciatis, soluta tenetur quis et consequatur asperiores
-                        facilis nostrum voluptates assumenda dignissimos odit fuga distinctio ullam quasi beatae illum
-                        explicabo nesciunt magni. Inventore, facere saepe? Tempore laudantium id voluptatem maiores
-                        soluta ullam. Id ullam expedita nostrum.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis pariatur numquam optio itaque
-                        provident earum voluptatibus vel autem, quaerat quo labore incidunt iste eveniet? Inventore
-                        debitis non facilis voluptates, alias dolorem corporis earum rerum veniam ipsam vero ipsum quam,
-                        aliquam cum molestiae reiciendis odit rem laboriosam? Quo deserunt deleniti quae?</p>
+                </div>
+                <div class="right column">
+                    <div class="text">Message me</div>
+                    <form action="#">
+                        <div class="input">
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div class="input">
+                            <input type="email" placeholder="Email">
+                        </div>
+                        <div class="input textarea">
+                            <textarea name="message" id="message" cols="30" rows="10"
+                                placeholder="Message.."></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
                 </div>
             </div>
+        </div>
+    </section>
 
-        </div>
-        <!-- fixed footer -->
-        <div class="container fixed-bottom">
-            <div class="row">
-                <div class="col-12">
-                    <footer class="footer text-center bg-dark text-light">&copy;Copyright</footer>
-                </div>
-            </div>
-        </div>
+    <footer>
+        <span><span class="far fa-copyright"></span> 2020
+            All rights reserved.</span>
+    </footer>
+    <script src="./Assets/script/script.js"></script>
 </body>
 
 </html>
