@@ -250,6 +250,9 @@ section{
 .contact .left .icons{
     margin: 10px 0;
 }
+.contact .left .icons.i{
+    text-align: center;
+}
 .contact .left .icons i{
     display: flex;
     align-items: center;
@@ -328,7 +331,7 @@ section{
 .portfolio .title{
     position: relative;
     text-align: center;
-    font-size: 40px;
+ font-size: 40px;
     font-weight: 500;
     font-family: 'Ubuntu',sans-serif;
     margin: 70px;
@@ -388,6 +391,24 @@ section{
     margin-top: 25px;
 }
 
+.back-btn{
+    transition: all 0.3s ease;
+    display: none;
+    font-size: 35px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+}
+.back-btn a{
+    transition: all 0.3s ease;
+    color: crimson;
+}
+
+.back-btn a:hover i{
+    transform: scale(1.05);
+}
+
 
 footer{
     font-family: 'Poppins', sans-serif;
@@ -396,6 +417,7 @@ footer{
     padding: 15px 25px;
     text-align: center;
 }
+
 
 
 
