@@ -175,6 +175,7 @@ section{
     height: 400px;
     object-fit: cover;
     transition: all 0.3s ease;
+    /* border-radius: 50%; */
 }
 
 .about .about-content .right .text{
@@ -331,7 +332,7 @@ section{
 .portfolio .title{
     position: relative;
     text-align: center;
- font-size: 40px;
+    font-size: 40px;
     font-weight: 500;
     font-family: 'Ubuntu',sans-serif;
     margin: 70px;
@@ -388,7 +389,11 @@ section{
     transition: all 0.3s ease;
 }
 .portfolio .portfolio-content .repository{
-    margin-top: 25px;
+    margin-top: 30px;
+}
+
+.portfolio .portfolio-content .display{
+    margin-top: 30px;
 }
 
 .back-btn{
